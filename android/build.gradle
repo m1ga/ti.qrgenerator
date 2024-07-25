@@ -1,0 +1,8 @@
+// https://github.com/androidmads/QRGenerator
+  repositories {
+    maven { url 'https://jitpack.io' }
+  }
+
+dependencies {
+  implementation 'com.github.androidmads:QRGenerator:1.0.1'
+}

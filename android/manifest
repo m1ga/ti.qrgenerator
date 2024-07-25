@@ -1,0 +1,18 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 4
+architectures: arm64-v8a armeabi-v7a x86 x86_64
+description: ti.qrgenerator
+author: Your Name
+license: Specify your license
+copyright: Copyright (c) 2024 by Your Company
+
+# these should not be edited
+name: ti.qrgenerator
+moduleid: ti.qrgenerator
+guid: 0422e4bd-e4fc-4d46-bb89-e02960221947
+platform: android
+minsdk: 12.4.0.GA
