@@ -2,17 +2,7 @@
 
 <img src="assets/screen.png"/>
 
-Simple QR code geneartor plugin for Titanium SDK - Android. Uses https://github.com/androidmads/QRGenerator (com.google.zxing:core:3.5.0)
-
-## Setup
-
-Add
-```
-repositories {
-  maven { url 'https://jitpack.io' }
-}
-```
-to build.gradle file
+Simple QR code geneartor plugin for Titanium SDK - Android. Uses https://github.com/androidmads/QRGenerator with `com.google.zxing:core:3.5.3`
 
 ## Example
 
