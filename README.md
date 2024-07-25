@@ -2,6 +2,20 @@
 
 <img src="assets/screen.png"/>
 
+Simple QR code geneartor plugin for Titanium SDK - Android. Uses https://github.com/androidmads/QRGenerator (com.google.zxing:core:3.5.0)
+
+## Setup
+
+Add
+```
+repositories {
+  maven { url 'https://jitpack.io' }
+}
+```
+to build.gradle file
+
+## Example
+
 ```
 import QRCode from "ti.qrgenerator";
 QRCode.generate({
@@ -13,10 +27,11 @@ QRCode.generate({
 });
 ```
 
-Add
-```
-repositories {
-  maven { url 'https://jitpack.io' }
-}
-```
-to build.gradle file
+full example in the example/ folder.
+
+## Properties:
+* text: text that is converted to a qr code (required)
+* margin: margin around the code
+* backgroundColor: background color behind the code
+* color: qr code color
+* dimension: size
