@@ -1,5 +1,7 @@
 # ti.qrgenerator
 
+<img src="assets/screen.png"/>
+
 ```
 import QRCode from "ti.qrgenerator";
 QRCode.generate({
