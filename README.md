@@ -16,7 +16,7 @@ to build.gradle file
 
 ## Example
 
-```
+```js
 import QRCode from "ti.qrgenerator";
 QRCode.generate({
   text: "Bar",
